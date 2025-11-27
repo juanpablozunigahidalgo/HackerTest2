@@ -1,0 +1,27 @@
+Problem Summary
+
+Given a string num containing only digits (0–9), you must insert '+' signs between some digits (or none) to form all possible valid mathematical expressions.
+Two rules:
+
+You may insert '+' between any two digits.
+
+You cannot insert two '+' signs next to each other (this happens naturally since you decide per gap).
+
+Each expression is evaluated normally (integer addition). You must compute:
+
+The sum of all expression results, modulo 10⁹ + 7.
+
+Example
+
+num = "123"
+Valid expressions:
+
+"123" → 123
+
+"1+23" → 24
+
+"12+3" → 15
+
+"1+2+3" → 6
+
+Total = 168
