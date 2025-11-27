@@ -1,0 +1,23 @@
+Problem Summary
+
+Same as question 1 — this is simply HackerRank’s Sample Input 0 and Sample Input 1 for the same function:
+
+Input "100" → evaluate all expressions
+
+Input "12" → evaluate all expressions
+
+This confirms and tests the same logic.
+
+Example: num = "100"
+
+Expressions:
+
+"100" → 100
+
+"1+00" → 1
+
+"1+0+0" → 1
+
+"10+0" → 10
+
+Sum = 112
